@@ -1,0 +1,36 @@
+.wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  margin: 0 40px;
+}
+
+.card {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 10px;
+  background: var(--primary);
+  box-shadow: inset var(--shadow-faint);
+}
+
+.player {
+  position: relative;
+  height: 500px;
+  aspect-ratio: 1920 / 1080;
+  background: black;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: var(--shadow-faint);
+}
